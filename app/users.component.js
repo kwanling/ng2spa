@@ -11,7 +11,7 @@ System.register(['angular2/core', 'angular2/router'], function(exports_1, contex
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1, router_1;
-    var NavbarComponent;
+    var UsersComponent;
     return {
         setters:[
             function (core_1_1) {
@@ -21,21 +21,21 @@ System.register(['angular2/core', 'angular2/router'], function(exports_1, contex
                 router_1 = router_1_1;
             }],
         execute: function() {
-            NavbarComponent = (function () {
-                function NavbarComponent() {
+            UsersComponent = (function () {
+                function UsersComponent() {
                 }
-                NavbarComponent = __decorate([
+                UsersComponent = __decorate([
                     core_1.Component({
-                        selector: 'navbar',
-                        templateUrl: 'app/navbar.component.html',
+                        selector: 'users',
+                        template: "\n        <h2>Users</h2>\n    ",
                         directives: [router_1.ROUTER_DIRECTIVES]
                     }), 
                     __metadata('design:paramtypes', [])
-                ], NavbarComponent);
-                return NavbarComponent;
+                ], UsersComponent);
+                return UsersComponent;
             }());
-            exports_1("NavbarComponent", NavbarComponent);
+            exports_1("UsersComponent", UsersComponent);
         }
     }
 });
-//# sourceMappingURL=navbar.component.js.map
+//# sourceMappingURL=users.component.js.map
